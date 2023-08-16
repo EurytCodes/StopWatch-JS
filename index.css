@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorange;
+}
+
+.container{
+    width: 300px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 15px;
+    border-radius: 10px 40px 40px;
+    box-shadow: 5px 5px 10px rgba(201, 0, 0, 0.08);
+}
+
+#timer{
+    font-size: 50px;
+    color: white;
+}
+
+.controls{
+    margin: 25px auto 0px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.start-btn input[type="button"]{
+    font-size: 20px;
+    padding: 10px 15px;
+    width: 100px;
+    border: none;
+    border-radius: 7px 15px;
+    color: white;
+    background-color: green;
+    transition: .3s ease;
+}
+.start-btn input[type="button"]:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgb(5, 190, 5);
+}
+.reset-btn input[type="button"]{
+    font-size: 20px;
+    padding: 10px 15px;
+    width: 100px;
+    border: none;
+    border-radius: 7px 15px;
+    color: white;
+    background-color: rgb(212, 0, 0);
+}
+.reset-btn input[type="button"]:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 1, 1);
+}
+
+.pause-btn input[type="button"]{
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px 15px;
+    color: white;
+    background-color: orange;
+}
+.pause-btn input[type="button"]:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 183, 48);
+}
+
+.resume-btn input[type="button"]{
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px 15px;
+    color: white;
+    background-color: rgb(241, 157, 0);
+}
+.resume-btn input[type="button"]:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 183, 48);
+}
